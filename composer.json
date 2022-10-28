@@ -1,0 +1,15 @@
+{
+    "name": "sandpear/crypt",
+    "description": "常用加解密使用",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.0",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sandpear\\Crypt\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
